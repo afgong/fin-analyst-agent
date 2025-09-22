@@ -1,0 +1,12 @@
+streamlit
+yfinance
+pandas
+numpy
+anthropic
+plotly
+requests
+python-dotenv
+scipy
+
+# Without the ==, we removed version pinning, 
+# so rows 1-8 should reflect the latest versions for each package
