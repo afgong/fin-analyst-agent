@@ -163,7 +163,7 @@ class FinancialDatabase:
             tech_data = tech_data[columns_to_insert]
 
             # Insert data
-            tech_data.to_sql('technical_data', conn, if_exists='append', index=False, method='replace')
+            tech_data.to_sql('technical_data', conn, if_exists='append', index=False)
             conn.commit()
 
         except Exception as e:
